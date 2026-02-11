@@ -49,7 +49,8 @@ const MissionVision = () => {
               </span>
             </div>
             <p className="text-2xl lg:text-3xl text-white/90 font-medium leading-relaxed italic border-l-4 border-[#4FBCAA] pl-8">
-              "Our mission is to provide Transcontinental Structural Support."
+              &quot;Our mission is to provide Transcontinental Structural
+              Support.&quot;
             </p>
           </motion.div>
         </div>

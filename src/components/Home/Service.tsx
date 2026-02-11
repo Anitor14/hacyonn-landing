@@ -8,7 +8,6 @@ import Robot from "../../../public/images/hacyon-mascot.png";
 import {
   ArrowRight,
   ArrowUpRight,
-  CheckCircle2,
   Layers,
   Cpu,
   BarChart3,
@@ -17,7 +16,7 @@ import {
   DollarSign,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { Button } from "../ui/button";
 
 const Service = () => {

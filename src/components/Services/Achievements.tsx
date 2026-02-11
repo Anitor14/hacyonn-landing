@@ -15,7 +15,7 @@ type Props = {
   }[];
 };
 
-const Achievements = ({ title, achievements }: Props) => {
+const Achievements = ({ achievements }: Props) => {
   return (
     <div className="py-24 bg-[#0B2826] relative overflow-hidden">
       {/* Decorative Elements */}

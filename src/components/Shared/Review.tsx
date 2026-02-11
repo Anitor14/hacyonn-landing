@@ -5,11 +5,20 @@ import { reviewData } from "@/lib/data";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Quote, Star } from "lucide-react";
+import { StaticImageData } from "next/image";
 
 // Duplicate data for infinite scroll effect
 const marqueeData = [...reviewData, ...reviewData, ...reviewData];
 
-const ReviewCard = ({ review, index }: { review: any; index: number }) => (
+interface Review {
+  id: string;
+  image: StaticImageData;
+  content: string;
+  name: string;
+  position: string;
+}
+
+const ReviewCard = ({ review }: { review: Review; index?: number }) => (
   <div className="w-[350px] md:w-[450px] flex-shrink-0 p-8 rounded-[32px] bg-white/5 backdrop-blur-md border border-white/10 mx-4 hover:border-[#4FBCAA] transition-colors duration-300">
     <div className="flex gap-1 mb-4">
       {[1, 2, 3, 4, 5].map((i) => (

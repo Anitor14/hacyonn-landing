@@ -75,7 +75,7 @@ const ContactUs = () => {
 
             <p className="text-gray-600 dark:text-gray-400 text-lg lg:text-xl font-medium leading-relaxed max-w-lg">
               We are here to help you with your sales enablement and business
-              growth needs. Let's build something extraordinary together.
+              growth needs. Let&apos;s build something extraordinary together.
             </p>
           </motion.div>
 

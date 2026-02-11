@@ -4,8 +4,6 @@ import Container from "../Shared/Container";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Community from "../../../public/images/Community.png";
-import radial1 from "../../../public/images/services-radial-1.png";
-import radial2 from "../../../public/images/services-radial-2.png";
 
 const OpenAICommunity = () => {
   return (

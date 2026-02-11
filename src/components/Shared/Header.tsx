@@ -479,7 +479,7 @@ const Header = () => {
                     onClick={() => setIsOpen(false)}
                     className="flex justify-center items-center h-12 bg-[#1C4540] dark:bg-white text-white dark:text-[#1C4540] rounded-xl text-[10px] font-black uppercase tracking-[0.2em] hover:bg-[#4FBCAA] dark:hover:bg-[#4FBCAA] dark:hover:text-white transition-all group"
                   >
-                    <span>Let's Connect</span>
+                    <span>Let&apos;s Connect</span>
                     <ArrowRight className="ml-2 w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>

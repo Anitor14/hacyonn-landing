@@ -1,7 +1,6 @@
 "use client";
 import React, { useRef } from "react";
 import Link from "next/link";
-import Container from "../Shared/Container";
 import { landingPageProjects } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
