@@ -4,7 +4,7 @@ import Container from "../Shared/Container";
 import { landingPageNewServices } from "@/lib/data";
 import Image from "next/image";
 // import Robot from "../../../public/images/services-robot.png";
-import Robot from "../../../public/images/hacyon-mascot.png";
+import Robot from "../../../public/images/admin-logo.png";
 import {
   ArrowRight,
   ArrowUpRight,

@@ -1,12 +1,12 @@
 import React from "react";
 import Container from "../Shared/Container";
 import Image from "next/image";
-import Hacyon from "../../../public/images/hacyon.png";
+import Acyon from "../../../public/images/Acyon.png";
 import Alarmix from "../../../public/images/alarmix-mock.png";
 import Droporf from "../../../public/images/drop-orf-mock.png";
 
 const ProjectCard = () => {
-  const url = "/images/HacyonBg.png";
+  const url = "/images/AcyonBg.png";
   const bgUrl = "/images/ProjectsBg.png";
 
   const alarmixUrl = "/images/AlarnixBg.png";
@@ -51,8 +51,8 @@ const ProjectCard = () => {
         </Container>
 
         <Image
-          src={Hacyon}
-          alt="Hacyon"
+          src={Acyon}
+          alt="Acyon"
           className="absolute bottom-[-2rem] sm:bottom-[2rem] lg:bottom-[-5rem] md:right-[5%] w-full sm:w-[500px] lg:w-[700px] max-w-none object-contain"
           priority
         />
