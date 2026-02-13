@@ -64,7 +64,7 @@ const Service = () => {
       <Container>
         <div className="flex flex-col lg:flex-row gap-16 items-start">
           {/* Left Side: Sticky Content */}
-          <div className="lg:w-1/3 lg:sticky lg:top-32 space-y-8">
+          <div className="lg:w-[40%] lg:sticky lg:top-32 space-y-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -93,12 +93,12 @@ const Service = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="hidden lg:block relative p-8 bg-[#F2FBF9] rounded-3xl border border-[#4FBCAA]/20"
+              className="hidden lg:block relative p-0 overflow-hidden bg-[#F2FBF9] rounded-3xl border border-[#4FBCAA]/20"
             >
               <Image
                 src={Robot}
                 alt="Services Robot"
-                className="w-full h-auto object-contain drop-shadow-xl"
+                className="w-full h-auto object-cover"
               />
               <div className="absolute bottom-6 left-6 right-6 bg-white/80 backdrop-blur-md p-4 rounded-xl border border-white/40 shadow-sm">
                 <p className="text-sm font-bold text-[#0B2826]">
@@ -123,7 +123,7 @@ const Service = () => {
           </div>
 
           {/* Right Side: Bento Grid of Services */}
-          <div className="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="lg:flex-1 grid grid-cols-1 md:grid-cols-2 gap-6">
             {landingPageNewServices.map((service, index) => (
               <motion.div
                 key={index}
