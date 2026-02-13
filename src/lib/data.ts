@@ -29,6 +29,8 @@ import Designs from "../../public/images/Design.png";
 import CyberSecurity from "../../public/images/CyberSecurity.png";
 import Entrepreneurship from "../../public/images/Entrepreneurship.png";
 import Finance from "../../public/images/Finance.png";
+import Consultancy from "../../public/images/consultancy.jpg";
+import training from "../../public/images/education.jpg";
 
 import Scale from "../../public/images/Scale.png";
 import Automate from "../../public/images/Automate.png";
@@ -1308,6 +1310,18 @@ export const servicesData = [
     image: Finance,
     title: "Finanacial Analysis",
     type: "financial_analysis",
+  },
+  {
+    id: "8",
+    image: Consultancy,
+    title: "Consultancy",
+    type: "consultancy",
+  },
+  {
+    id: "9",
+    image: training,
+    title: "Education",
+    type: "education",
   },
 ];
 

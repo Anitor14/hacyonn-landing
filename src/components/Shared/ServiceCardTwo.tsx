@@ -21,7 +21,7 @@ const ServiceCardTwo = ({ data }: Props) => {
         <Image
           src={data.image}
           alt={data.title || ""}
-          className="w-full transition-transform duration-500 group-hover:scale-105 group-hover:brightness-90"
+          className="w-full h-[300px] object-cover transition-transform duration-500 group-hover:scale-105 group-hover:brightness-90"
         />
       </Link>
       <div className="bg-[#FFFFFF] py-6 px-4 space-y-6">

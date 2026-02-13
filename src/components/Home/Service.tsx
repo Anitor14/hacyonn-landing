@@ -4,7 +4,7 @@ import Container from "../Shared/Container";
 import { landingPageNewServices } from "@/lib/data";
 import Image from "next/image";
 // import Robot from "../../../public/images/services-robot.png";
-import Robot from "../../../public/images/admin-logo.png";
+import Robot from "../../../public/images/hacyonn-image.jpeg";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -98,7 +98,7 @@ const Service = () => {
               <Image
                 src={Robot}
                 alt="Services Robot"
-                className="w-full h-auto object-cover"
+                className="w-full h-[510px] object-cover"
               />
               <div className="absolute bottom-6 left-6 right-6 bg-white/80 backdrop-blur-md p-4 rounded-xl border border-white/40 shadow-sm">
                 <p className="text-sm font-bold text-[#0B2826]">
